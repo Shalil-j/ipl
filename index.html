@@ -58,7 +58,7 @@
         </div>
         <div class="">
 
-            <ul class="flex space-x-10  text-xl ft-bold">
+            <ul class="hidden md:flex space-x-10  text-xl ft-bold">
                 <li><a href=""><span class="link link-underline link-underline-black text-black"> MATCHES</span></a></li>
                 <li><a href=""><span class="link link-underline link-underline-black text-black"> VIDEOS</span></a></li>
                 <li><a href=""><span class="link link-underline link-underline-black text-black"> STATS</span></a></li>
@@ -78,12 +78,12 @@
         </nav>
         <!-- navbar -->
         <!-- header -->
-        <div class="flex"> 
-            <div class=" h-auto w-3/4 ">
+        <div class="md:flex"> 
+            <div class=" h-auto md:w-3/4 ">
                 <video src="./assets/highlights.mp4" autoplay controls muted></video>
                 <p class="absolute top-20 text-5xl bg-red-500 px-6 py-2 text-white font-extrabold">HIGHLIGHTS</p>
             </div>
-            <div class=" w-1/4 bg-gray-200">
+            <div class=" w-full md:w-1/4 bg-gray-200">
                 <div class="px-10">
                     <p class="text-center text-xl pt-2 font-semibold">Score Board</p>
                     <div class="flex justify-between mt-5 sc-header">
@@ -160,45 +160,45 @@
 
         <!-- match -->
         <div>
-            <img src="./assets/New Project.jpg" class="w-full object-cover h-auto">
-            <div class="absolute text-center top-[800px] left-40">
+            <img src="./assets/New Project.jpg" class="w-full object-cover h-96 md:h-auto">
+            <div class="absolute text-center top-[1000px] md:top-[800px] md:left-40">
 
                 <P class="text-white text-2xl font-bold underline-offset-1">20 APR 2022,7:30 PM IST</P>
-                <div class="flex mt-10 space-x-5">
+                <div class="flex mt-10 px-5 space-x-5">
                     <div class="flex items-center">
-                    <p class="text-right text-4xl font-bold uppercase text-white pr-2">delhi captials</p>
-                    <img src="./assets/DC-Logo-PNG-0idig.png" alt="gt" class="h-52 ">
+                    <p class="text-right md:text-4xl font-bold uppercase text-white pr-2">delhi captials</p>
+                    <img src="./assets/DC-Logo-PNG-0idig.png" alt="gt" class="h-24 md:h-52 ">
                 </div>
-                <p class="text-5xl bg-blue-900 h-fit px-3 py-7 text-white font-bold rounded-full">V/S</p>
+                <p class=" md:text-5xl bg-blue-900 h-fit px-3 left- py-3 md:py-7 text-white font-bold rounded-full">V/S</p>
                 <div class="flex items-center">
-                    <img src="./assets/pbks.png" alt="" class="h-52">
-                    <p class="text-left text-4xl font-bold uppercase text-white pl-2">punjab kings</p>
+                    <img src="./assets/pbks.png" alt="" class="h-24 md:h-52">
+                    <p class="text-left md:text-4xl font-bold uppercase text-white pl-2">punjab kings</p>
                 </div>
                 </div>
 
-<div class="absolute flex text-white space-x-2 mt-5 ml-72  items-center">
+<div class="absolute flex text-white ml-8 md:space-x-2 mt-5  md:ml-72  items-center">
     <div class=" items-center px-10 py-5">
-        <p id="day" class="text-5xl">1</p>
+        <p id="day" class="text-xl md:text-5xl">1</p>
         <p>DAY</p>
     </div>
-    <p class="text-5xl ">:</p>
+    <p class="text-xl md:text-5xl">:</p>
     <div class=" items-center px-10 py-5">
-        <p id="hrs" class="text-5xl">1</p>
+        <p id="hrs" class="text-xl md:text-5xl">1</p>
         <p>HRS</p>
     </div>
-    <p class="text-5xl ">:</p>
+    <p class="text-xl md:text-5xl">:</p>
     <div class=" items-center px-10 py-5">
-        <p id="min" class="text-5xl">1</p>
+        <p id="min" class="text-xl md:text-5xl">1</p>
         <p>MIN</p>
     </div>
-    <p class="text-5xl ">:</p>
+    <p class="text-xl md:text-5xl">:</p>
     <div class=" items-center px-10 py-5">
-        <p id="sec" class="text-5xl">1</p>
+        <p id="sec" class="text-xl md:text-5xl">1</p>
         <p>SEC</p>
     </div>
  </div>
 
-<div id="live"  class="flex hidden ml-[450px] px-4 py-3 bg-black w-24 rounded-full bg-opacity-75">
+<div id="live"  class="flex hidden mx-auto md:ml-[445px] px-4 py-3 bg-black w-24 rounded-full bg-opacity-75">
 <span class="animate-ping absolute inline-flex h-3 w-3 rounded-full bg-red-500 opacity-75"></span>
     <span class="relative flex items-center inline-flex rounded-full h-3 w-3 bg-red-600"><p class="text-xl ml-5 font-semibold text-white">Live</p></span>
 </div>
@@ -211,11 +211,11 @@
           </div>
         <!-- match -->
 <!-- app -->
-<div class="flex mt-10 px-20 items-center">
+<div class="md:flex mt-10 px-20 items-center">
 <div>
     <p class="text-5xl font-bold text-orange-600">Get the official IPL APP!</p>
     <p class="pr-5 text-gray-700">Get the latest scores on the go. Find the latest content, including match highlights, press conferences and recap all at your fingertips by downloading the official IPL app. Available on both Google Play and Apple Store. Download it here!</p>
-    <div class="flex items-center space-x-5 ml-60 mt-5">
+    <div class="flex items-center space-x-5 md:ml-60 mt-5">
         <img src="./assets/ps.png" alt="playstore" class="h-10 rounded-md">
         <img src="./assets/as.png" alt="playstore" class="h-10 rounded-md">
         <img src="./assets/qr.png" alt="playstore" class="h-16 ">
@@ -229,12 +229,12 @@
 <!-- app -->
 <!-- leading -->
 <div>
-    <p class="px-5 text-3xl font-bold text-orange-600 mt-10">2022 Leaders</p>
-    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6  gap-6 px-5 mt-5">
+    <p class="px-5 text-6xl font-bold text-orange-600 mt-10">2022 Leaders</p>
+    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-6 md:px-5  px-20  gap-6 px-5 mt-10">
         <!-- 1 -->
         <div class="h-auto group ">
             <div class="bg-gradient-to-bl from-orange-500 to-yellow-300 rounded-t-xl">
-                <img src="./assets/rr.png" class=" h-8 absolute left-48 mt-2">
+                <img src="./assets/rr.png" class=" h-8 absolute left-[70%] md:left-48 mt-2">
                 <img src="./assets/jb.png" class="h-40 mx-auto transform  transition duration-500 group-hover:scale-105">
                 <p class=" w-full bg-orange-800 text-center text-sm text-white">Aramco Orange Cap</p>
             </div>
@@ -248,7 +248,7 @@
 <!-- 2 -->
         <div class="h-auto group ">
             <div class="bg-gradient-to-t from-purple-200 via-purple-400 to-purple-800 rounded-t-xl">
-                <img src="./assets/rr.png" class=" h-8 absolute left-[29%] mt-2">
+                <img src="./assets/rr.png" class=" h-8 absolute left-[70%] md:left-[29%] mt-2">
                 <img src="./assets/chahal.png" class="h-40 mx-auto transform  transition duration-500 group-hover:scale-105">
                 <p class=" w-full bg-purple-800 text-center text-sm text-white">Aramco Purple Cap</p>
             </div>
@@ -262,7 +262,7 @@
 <!-- 3 -->
         <div class="h-auto group ">
             <div class="bg-gradient-to-t from-sky-400 to-indigo-900 rounded-t-xl">
-                <img src="./assets/lgs.png" class=" h-8 absolute left-[46%] mt-2">
+                <img src="./assets/lgs.png" class=" h-8 absolute left-[70%] md:left-[46%] mt-2">
                 <img src="./assets/kl.png" class="h-40 mx-auto transform  transition duration-500 group-hover:scale-105">
                 <p class=" w-full bg-blue-800 text-center text-sm text-white">Highest Score</p>
             </div>
@@ -276,7 +276,7 @@
 <!-- 4 -->
         <div class="h-auto group ">
             <div class="bg-gradient-to-t from-amber-200 via-violet-600 to-sky-900 rounded-t-xl">
-                <img src="./assets/rr.png" class=" h-8 absolute left-[62%] ml-1 mt-2">
+                <img src="./assets/rr.png" class=" h-8 absolute left-[70%] md:left-[62%] ml-1 mt-2">
                 <img src="./assets/chahal.png" class="h-40 mx-auto transform  transition duration-500 group-hover:scale-105">
                 <p class=" w-full bg-indigo-800 text-center text-sm text-white">Best Bowling Figures</p>
             </div>
@@ -290,7 +290,7 @@
 <!-- 5 -->
         <div class="h-auto group ">
             <div class="bg-gradient-to-r from-red-500 to-red-800 rounded-t-xl">
-                <img src="./assets/rr.png" class=" h-8 absolute left-[79%] mt-2">
+                <img src="./assets/rr.png" class=" h-8 absolute left-[70%] md:left-[79%] mt-2">
                 <img src="./assets/jb.png" class="h-40 mx-auto transform  transition duration-500 group-hover:scale-105">
                 <p class=" w-full bg-red-800 text-center text-sm text-white">Upstox Most Valuable Player</p>
             </div>
@@ -304,7 +304,7 @@
 <!-- 6 -->
         <div class="h-auto group ">
             <div class="bg-gradient-to-b from-blue-400 to-emerald-400 rounded-t-xl">
-                <img src="./assets/mi.png" class=" h-8 absolute left-[95%] ml-1 mt-2">
+                <img src="./assets/mi.png" class=" h-8 absolute left-[70%] md:left-[95%] ml-1 mt-2">
                 <img src="./assets/rohits.png" class="h-40 mx-auto transform  transition duration-500 group-hover:scale-105">
                 <p class=" w-full bg-green-800 text-center text-sm text-white">Paytm Fairplay</p>
             </div>
@@ -319,6 +319,116 @@
     </div>
 </div>
 <!-- leading -->
+<!-- booking -->
+<div class="mt-10">
+    <img src="./assets/banner.png" class="w-full h-96 md:h-auto object-cover">
+    <div class="absolute top-[4150px] md:top-[2700px] ml-10">
+        <p class="text-8xl md:text-9xl font-bold opacity-60  md:opacity-100  text-white">Buy Tickets</p>
+        <a href="https://in.bookmyshow.com" class="bg:bg-orange-500 md:ml-2 text-2xl font-bold text-white px-5 py-2 rounded-md md:hover:bg-orange-700 hover:border-b-2 border-orange-500">Book</a>
+    </div>
+</div>
+<!-- booking -->
+<!-- sponsers -->
+
+<div class="text-sm text-gray-400 items-center mt-14 text-center mb-20">
+<p class="">Title Sponsers</p>
+<img src="./assets/cmp/1644520414_tata-logo.png" alt="" class="h-44 mx-auto">
+<div class="grid grid-cols-5 space-x-5  px-10  md:ml-28 items-center mt-5 ">
+<div>
+    <img src="./assets/cmp/1633587919_sponsor-hotstar.webp" alt="">
+</div>
+<div>
+    <img src="./assets/cmp/1636628182_star-sports.png" alt="">
+</div>
+
+<div>
+    <img src="./assets/cmp/1633588474_sponsor-paytm.webp" alt="" class="w-32">
+</div>
+<div>
+    <img src="./assets/cmp/1633588547_sponsor-ceat.webp" alt="" class="w-32">
+</div>
+<div>
+    <img src="./assets/cmp/1647964934_aramco.png" alt="" class="w-40">
+</div>
+</div>
+<div class="grid grid-cols-3 mt-5 items-center md:ml-28 gap-5 px-10">
+    <img src="./assets/cmp/1646835698_dream11.png" alt="" class="md:h-20">
+    <img src="./assets/cmp/1646835719_unacademy.png" alt="" class="md:h-20">
+    <img src="./assets/cmp/1646835768_cred.png" alt="" class="md:h-20">
+    <img src="./assets/cmp/1646835793_upstox.png" alt="" class="md:h-20">
+    <img src="./assets/cmp/1646835868_swiggy (1).png" alt="" class="md:h-20">
+    <img src="./assets/cmp/1646835675_rupay (1).png" alt="" class="md:h-20">
+    
+    </div>
+
+
+
+</div>
+
+<!-- sponsers -->
+<!-- footer -->
+<div class="bg-gradient-to-b from-sky-500 to-blue-900">
+<img src="./assets/ipl-logo-new-old.png" class="absolute h-40   mt-[1000px] md:mt-[300px] right-10">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 px-10 mx-auto p-10 pb-40 text-gray-200">
+
+<div class="mt-5"> 
+    <h1 class="text-xl font-bold uppercase">teams</h1>
+    <ul class="space-y-2">
+        <li><a href="">Chennai Super Kings</a></li>
+        <li><a href="">Delhi Capitals</a></li>
+        <li><a href="">Gujarat Titans</a></li>
+        <li><a href="">Kolkata Knight Riders</a></li>
+        <li><a href="">Lucknow Super Giants</a></li>
+        <li><a href="">Mumbai Indians</a></li>
+        <li><a href="">Punjab Kings</a></li>
+        <li><a href="">Rajasthan Royals</a></li>
+        <li><a href="">Royal Challengers Bangalore</a></li>
+        <li><a href="">Sunrisers Hyderabad</a></li>
+    </ul>
+</div>
+
+<div class="mt-5"> 
+    <h1 class="text-xl font-bold uppercase">about</h1>
+    <ul class="space-y-2">
+        <li><a href="">About Us</a></li>
+        <li><a href="">Anti Corruption Policy</a></li>
+        <li><a href="">Anti Doping Policy</a></li>
+        <li><a href="">TUE Application Form</a></li>
+        <li><a href="">Anti Discrimination Policy</a></li>
+        <li><a href="">Clothing And Equipment Regulations</a></li>
+        <li><a href="">Code Of Conduct For Players And Teams Officials</a></li>
+        <li><a href="">News Access Regulations</a></li>
+        <li><a href="">Image Use Terms</a></li>
+    </ul>
+</div>
+
+<div class="mt-5"> 
+    <h1 class="text-xl font-bold uppercase">Guidelines</h1>
+    <ul class="space-y-2">
+        <li><a href="">IPL Code Of Conduct For Match Officials</a></li>
+        <li><a href="">Brand And Protection Guidelines</a></li>
+        <li><a href="">Governing Council</a></li>
+        <li><a href="">Match Playing Conditions</a></li>
+        <li><a href="">PMOA Minimum Standard</a></li>
+        <li><a href="">Suspect Action Policy</a></li>
+    </ul>
+</div>
+
+<div class="mt-5"> 
+    <h1 class="text-xl font-bold uppercase">Conatct</h1>
+    <ul class="space-y-2">
+        <li><a href="">Contact Us</a></li>
+        <li><a href="">Sponsorship</a></li>
+        <li><a href="">Privacy Policy</a></li>
+    </ul>
+</div>
+
+
+</div>
+
+
+</div>
+<!-- footer -->
 
 
 
